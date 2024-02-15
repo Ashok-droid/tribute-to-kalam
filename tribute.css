@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:wght@300;400;700&display=swap');
+
+
+body{
+    font-family: "EB Garamond", serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+ 
+    background:#e5e5fd;
+    min-height:100vh; 
+    border: 10px solid #1d1e4c;
+}
+
+
+.content{
+   
+    max-width:900px;
+    margin:0 auto;
+   
+}
+
+ .img-container, img{
+    width:300px;
+    height:320px;
+    border-radius:50% ;
+ }
+
+
+ .top-section{
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+ }
+
+ .top-section h1{
+    font-size:40px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+ }
+ .top-section h4{
+    text-align: end;
+    font-size:1.4rem;
+}
+
+.about{
+    margin-top:80px;
+    margin-bottom:50px;
+}
+.about h1{
+    font-size:30px;
+    margin-bottom:40px;
+}
+
+.about p{
+    line-height:1.5;
+    letter-spacing: 1px;
+    text-align:justify;
+}
+
+.biographies{
+    margin-bottom:40px;
+}
+.biographies h1{
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.biographies ul{
+   line-height:2;
+   letter-spacing: 1px;
+   margin-left: 50px;
+}
+
+.cta{
+    margin-bottom:50px;
+    text-align:end;
+    letter-spacing: 1px;
+}
